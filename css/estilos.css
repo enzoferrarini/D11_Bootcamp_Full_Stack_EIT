@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{    
+    background-color: #4c7b9d;
+    background-image: url(./img/ciudad.png);
+    background-size:contain;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    padding: 0 15%;  
+}
+
+h1{
+    background-color:#ef4647;
+    margin: 0 auto;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    text-align: center;
+    color: #fff;
+    padding: 13px 0;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px 6px black;
+    z-index: 1;
+}
+
+h2:first-of-type {
+    background-color: #acdadc;    
+    margin-top: 80px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgb(152, 152, 152);
+    color: #df3448;
+    text-align: center;
+    padding-top: 45px;
+    box-shadow: inset 9px 9px 5px -5px #68878c;
+    border-radius: 12px 12px 0 0;
+} 
+
+h2 {  
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgb(152, 152, 152);
+    color: #df3448;
+    text-align: center;
+} 
+
+p:last-of-type {
+    background-color: #acdadc;
+    border-radius: 0 0 12px 12px;
+} 
+
+h2,p {
+    background-color: #acdadc;
+    margin:0;
+    box-shadow: inset 9px 0 5px -5px #68878c;
+    padding: 5px 50px;
+    line-height: 1.1;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+p:not(h2 + p):first-letter {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+h2 + p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+h2 + p:before, h2 + p:after {
+    content: "-";
+}
+
+p:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;    
+} 
+
+p:last-of-type:after {
+    content: url(./img/gato.png);
+    height: 60px;
+    display: block;
+    position: relative;
+    text-align: center;
+    transform: scale(.6);
+    margin-bottom: 350px;
+}
+
+
